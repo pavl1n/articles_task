@@ -1,0 +1,10 @@
+.git
+.env
+bin
+tmp
+vendor
+*.log
+*.local
+node_modules
+coverage
+dist
