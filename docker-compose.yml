@@ -18,6 +18,9 @@ services:
 
   migrate:
     image: migrate/migrate:v4.17.1
+    depends_on:
+      db:
+        condition: service_healthy
     command:
       [
         "-path",
